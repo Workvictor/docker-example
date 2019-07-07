@@ -14,7 +14,7 @@ const App: React.FC = () => {
           </div>
         </div>
         <Switch>
-          <Route path={'/'} component={Home}/>
+          <Route exact path={'/'} component={Home}/>
           <Route path={'/about'} component={About}/>
         </Switch>
       </BrowserRouter>
